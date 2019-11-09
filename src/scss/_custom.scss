@@ -1,0 +1,63 @@
+// Here you can add other styles
+
+.card-title-big {
+  font-size: 1.5em;
+}
+
+.card-title-sm {
+  font-size: 1em;
+}
+
+.card-header {
+  padding: 0.5em 1em !important;
+}
+
+.custom-button {
+  padding: 0rem 0.5rem;
+}
+
+.form-control-sm {
+  font-size: 1em !important;
+}
+
+input:disabled {
+  background: #ffffff !important;
+}
+
+select:disabled {
+  background: #d9dfe7 !important;
+}
+
+textarea:disabled {
+  background: #ffffff !important;
+}
+
+.fixed_header{
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.fixed_header tbody{
+  display:block;
+  overflow-y: scroll;
+  height:500px;
+  width:100%;
+}
+
+.fixed_header thead tr{
+  display:block;
+}
+.fixed_header thead th {
+  border: none;
+}
+
+.fixed_header th, .fixed_header td {
+  padding: 5px;
+  text-align: left;
+  width: 140px;
+}
+
+label, span > i {
+  cursor: pointer;
+}
